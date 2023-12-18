@@ -1,0 +1,15 @@
+Plug in to run CUDA in COLAB 
+Change your runtime to T4 GPU
+
+!pip install git+https://github.com/andreinechaev/nvcc4jupyter.git
+%load_ext nvcc_plugin
+
+Add these lines before your kernel
+
+%%cu
+copy "common.h" file content and paste it here.
+
+References: 
+https://colab.research.google.com/drive/1pFKqU9i6-yPBzV9a651wdUDP1zbRXPgj#scrollTo=vDMJweDtVK3K
+https://colab.research.google.com/github/jeonggunlee/CUDATeaching/blob/master/01_cuda_lab/04_helloCUDA.ipynb
+https://colab.research.google.com/github/ShimaaElabd/CUDA-GPU-Contrast-Enhancement/blob/master/CUDA_GPU.ipynb#scrollTo=gvlavcVD4K7W
