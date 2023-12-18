@@ -16,8 +16,6 @@ To perform vector addition on host and device.
 Hardware – PCs with NVIDIA GPU & CUDA NVCC
 Google Colab with NVCC Compiler
 
-## RELATED THEORETICAL CONCEPT:
-
 
 
 
